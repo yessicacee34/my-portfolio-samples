@@ -1,0 +1,23 @@
+ * {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body {
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+ header h1{
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+  }
