@@ -16,17 +16,42 @@ body {
     list-style-type: none;
     background-color: blueviolet;
     flex-direction: row;
+    padding: 1%;
     
 }
 
-img {
-    position:relative;
-    height: 46%;
-    width: 100%;
-    margin-bottom: 30px;
+.hero {
+    width: 80%;
+    position: relative;
+    
     
 }
 .section h1{
     color: yellow;
     background-color: blueviolet;
+}
+#second-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+.first {
+    width: 20%;
+}
+
+.project {
+    width: 40%;
+    margin: 6px;
+}
+.first {
+    width: 81%;
+    height: 10;
+
+}
+#main-project {
+    display: flex;
+    justify-content: flex-end;
+
 }
