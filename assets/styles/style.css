@@ -5,19 +5,28 @@ box-sizing:border-box;
 }
 
 body {
-    background-color: aqua;
+  background-color: blueviolet;
     font-family: sans-serif;
 }
 
- header h1{
-    display: flex;
-    justify-content: space-around;
-}
-header {
+ header nav ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #13293d;
-    color: #fff;
-  }
+    margin-left: 800px;
+    list-style-type: none;
+    background-color: blueviolet;
+    flex-direction: row;
+    
+}
+
+img {
+    position:relative;
+    height: 46%;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+.section h1{
+    color: yellow;
+    background-color: blueviolet;
+}
