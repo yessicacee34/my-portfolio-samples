@@ -21,8 +21,9 @@ body {
 }
 
 .hero {
-    width: 80%;
-    position: relative;
+    width: 100%;
+    height: 400px;
+  
     
     
 }
@@ -38,7 +39,9 @@ body {
 }
 
 .first {
-    width: 20%;
+    width: 30%;
+    height: 400px;
+
 }
 
 .project {
