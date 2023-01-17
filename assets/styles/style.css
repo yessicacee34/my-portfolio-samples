@@ -5,7 +5,7 @@ box-sizing:border-box;
 }
 
 body {
-  background-color: blueviolet;
+  background-color:bisque;
     font-family: sans-serif;
 }
 
@@ -14,19 +14,39 @@ body {
     justify-content: space-between;
     margin-left: 800px;
     list-style-type: none;
-    background-color: blueviolet;
+    background-color:aqua;
     flex-direction: row;
-    padding: 1%;
     
 }
 
-.hero {
-    width: 100%;
-    height: 400px;
-  
-    
+#aboutme {
+    margin: 50px;
     
 }
+
+#mywork {
+    margin: 50px;
+   padding-top: 80px;
+ 
+
+}
+
+.hero {
+        width: 100%;
+        height: 200px;
+        background-image:url(imagemain2.jpg);
+        background-size:cover;
+         background-position: center;
+      background-repeat: no-repeat;
+        position:relative;
+    }
+
+.mypicture {
+    width: 150px;
+    height: 100%;
+   border-radius: 80px;
+}
+
 .section h1{
     color: yellow;
     background-color: blueviolet;
@@ -41,6 +61,12 @@ body {
 .first {
     width: 30%;
     height: 400px;
+    width: fit-content;
+    padding-right: 10px;
+    position:inherit;
+    width: 57em;
+
+   
 
 }
 
@@ -48,13 +74,41 @@ body {
     width: 40%;
     margin: 6px;
 }
-.first {
-    width: 81%;
-    height: 10;
 
-}
+
+
+
 #main-project {
     display: flex;
     justify-content: flex-end;
 
 }
+ .textone {
+background-color:blue;
+color: white;
+position: absolute;
+padding-right: 30px;
+top: 800px;
+left: 22%;
+ }
+
+ .texttwo {
+     background-color:blue;
+     color: white;
+    position: absolute;
+    margin-top: 10%;
+    right: 68%;
+ }
+ .textthree {
+    background-color:blue;
+    color: white;
+    position: absolute;
+    margin-top: 10%;
+left: 59%;
+ }
+#Contact h1 {
+    color: rgb(60, 38, 146);
+    background-color: aqua;
+}
+
+@media screen and (max-width: 768px) {}
